@@ -48,22 +48,25 @@ span {
   width: 60px;
   height: 15px;
 }
-.onebadge{
-    left: 10px;
+.onebadge {
+  left: 10px;
 }
-.heart{
-    color: black;
-    background-color: white;
-    cursor: pointer;
-    position: absolute;
-    bottom: 480px;
-    left: 320px;
-    width: 100%;
-    height: %;
-    font-size: 22px; 
+.heart {
+  color: black;
+  background-color: white;
+  cursor: pointer;
+  position: absolute;
+  bottom: 480px;
+  left: 310px;
+  width: 100%;
+  font-size: 22px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
-.heart:hover{
-    color: red;
+.heart:hover {
+  color: red;
 }
 
 /* layout */
