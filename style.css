@@ -7,46 +7,63 @@
 /* commons */
 body {
   background-color: #ffffff;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
-p{
- font-size: 10px;
-
+p {
+  font-size: 10px;
 }
 img {
   width: 100%;
 }
-.red-txt{
+.red-txt {
+  color: red;
+}
+.deleted-txt {
+  text-decoration: line-through;
+}
+span {
+  font-weight: bolder;
+}
+.discount {
+  background-color: red;
+  color: white;
+  position: absolute;
+  bottom: 80px;
+  font-size: 9px;
+  text-align: center;
+  border: 1px solid red;
+  width: 30px;
+  height: 15px;
+}
+.sosten {
+  background-color: #00875a;
+  color: white;
+  position: absolute;
+  bottom: 80px;
+  left: 42px;
+  font-size: 9px;
+  text-align: center;
+  border: 1px solid #00875a;
+  width: 60px;
+  height: 15px;
+}
+.onebadge{
+    left: 10px;
+}
+.heart{
+    color: black;
+    background-color: white;
+    cursor: pointer;
+    position: absolute;
+    bottom: 480px;
+    left: 320px;
+    width: 100%;
+    height: %;
+    font-size: 22px; 
+}
+.heart:hover{
     color: red;
-}
-.deleted-txt{
-    text-decoration:line-through;
-}
-span{
-    font-weight: bolder;
-}
-.discount{
-    background-color: red;
-    color: white;
-    position: absolute;
-    bottom: 80px;
-    font-size:9px;
-    text-align: center;
-    border: 1px solid red;
-    width: 30px;
-    height: 15px;
-}
-.sosten{
-    background-color: #00875a;
-    color: white;
-    position: absolute;
-    bottom: 80px;
-    left: 42px;
-    font-size: 9px;
-    text-align: center;
-    border: 1px solid #00875a;
-    width: 60px;
-    height: 15px;
 }
 
 /* layout */
@@ -63,7 +80,5 @@ span{
 .box {
   width: calc(100% / 3);
   padding: 10px;
-  position: relative
+  position: relative;
 }
-
-
