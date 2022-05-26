@@ -79,6 +79,7 @@ span {
   display: flex;
   flex-wrap: wrap;
   margin-top: 20px;
+  justify-content: space-between;
 }
 .box {
   width: calc(100% / 3);
@@ -89,8 +90,12 @@ span {
 .img1{
 position: absolute;
 right: 0;
-width: 100%;
+width: 339.98px;
+height:491.06px;
+margin-right: 10px;
 }
 .img1:hover{
   opacity: 0;
+  position: absolute;
+ 
 }
